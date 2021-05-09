@@ -18,7 +18,7 @@ int main ()
     //注册信号处理函数
     Signaler::Register (SIGINT, func);
     Signaler::Register (SIGUSR1, func);
-
+    
     // 启动服务
     ser.Run ();
 

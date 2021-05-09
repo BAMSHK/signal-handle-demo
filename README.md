@@ -29,3 +29,12 @@ cd build
 cmake ..
 make
 ```
+
+### 4. 终止程序
+PID的值在程序的输出中查看
+例如 kill -s SIGINT 1111
+```bash
+kill -s SIGINT {PID}
+或者
+kill -s SIGUSR1 {PID}
+```
