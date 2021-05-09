@@ -1,4 +1,10 @@
 # signal-handle-demo
+
+## 一、项目说明
+* 通用的服务启动模板
+* 使用信号实现优雅的退出程序，以达到服务终止前清理资源
+
+## 二、 使用说明
 ### 1. 拉取代码
 ```bash
 git clone https://github.com/BAMSHK/signal-handle-demo.git
